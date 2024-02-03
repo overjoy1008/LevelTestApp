@@ -1,0 +1,136 @@
+@font-face {
+    src: url("fonts/EliceDigitalBaeum_TTF/EliceDigitalBaeum_Regular.ttf");
+    font-family: EliceDigitalBaeum;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+header {
+    box-shadow: 0px 3px 5px rgb(214, 214, 214);
+    height: 60px;
+    width: 100%;
+    display: block;
+    margin: 0 0;
+}
+
+.hide {
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgContainer {
+    margin: 0px 5px;
+}
+
+.icons {
+    display: flex;
+}
+
+.ingang_bridge {
+    width: 40px;
+    margin: 10px 5px 7px 5px;
+}
+
+.instagram {
+    width: 40px;
+    margin: 10px 5px 7px 5px;
+}
+
+.kakaotalk {
+    width: 30px;
+    margin: 15px 5px 12px 5px;
+}
+
+.container {
+    text-align: center;
+    margin: 100px 0;
+    padding: 20px;
+}
+
+.title {
+    font-family: 'Jua', sans-serif;
+    font-size: 36px;
+    color: #000000;
+    margin: 30px 50px;
+}
+
+.subtitle {
+    font-family: EliceDigitalBaeum;
+    font-size: 24px;
+    color: #555555;
+    margin-bottom: 50px;
+}
+
+.button {
+    background-color: #5271ff;
+    color: #ffffff;
+    padding: 11px 50px;
+    margin: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border: none;
+    border-radius: 36px;
+    cursor: pointer;
+}
+
+.miniButton {
+    background-color: #5271ff;
+    color: #ffffff;
+    padding: 11px 22px;
+    margin: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3d497e;
+}
+
+.buttonFlex {
+    justify-content: center;
+    display: flex;
+}
+
+
+#backBar {
+    position: relative;
+    margin: 0px 0px;
+    width: 100px;
+    height: 1px;
+    background-color: #5272ff3b;
+    padding: 2px 0px;
+    border-radius: 0px;
+}
+
+#progressBar {
+    position: absolute;
+    margin: 0px 0px;
+    width: 100px;
+    height: 1px;
+    background-color: #5271ff;
+    padding: 2px 0px;
+    border-radius: 0px;
+    transition: all 0.4s ease-out;
+}
+
+.leftAlign {
+    text-align: left;
+}

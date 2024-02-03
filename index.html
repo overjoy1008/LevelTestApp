@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <link rel="stylesheet" href="assets/styles.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>인강브릿지</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="navbar">
+                <div class="imgContainer">
+                    <img class="ingang_bridge" src="images/Blue_round_logo.png" alt="ingang bridge blue round logo"/>
+                </div>
+                <nav class="icons">
+                    <div class="imgContainer"><img class="instagram" src="images/instagram.png" alt="instagram"/></div>
+                    <div class="imgContainer"><img class="kakaotalk" src="images/kakaotalk.png" alt="kakaotalk"/></div>
+                </nav>
+            </div>
+            <div id="progressBar"></div>
+            <div id="backBar"></div>
+        </header>
+        <div class="container">
+            <section id="main">
+                <div class="title">8분 레벨 테스트를</br>통해 알아보는!</br></div>
+                <div class="subtitle">"나에게 맞는 인강상담 추천받기"</div>
+                <button type="button" class="button" onclick="js:selectYourSubject()">AI 레벨 테스트 하러가기</button>
+            </section>
+            
+            <section id="subjectSelect" class="hide">
+                <div class="title">과목 선택</div>
+                <div class="subtitle">인강 추천을 받고 싶은 과목을 선택하세요.</br>클릭하시면 8분 동안의 테스트가 시작됩니다.</div>
+                <div class="buttonFlex">
+                    <button type="button" class="miniButton" onclick="js:languageProblem()">국어</button>
+                    <button type="button" class="miniButton" onclick="js:mathProblem()">수학</button>
+                    <button type="button" class="miniButton" onclick="js:englsihProblem()">영어</button>
+                </div>
+            </section>
+
+            <section id="levelTest" class="hide">
+                <div class="title leftAlign">
+                    8분 레벨 테스트
+                </div>
+            </section>
+
+        </div>
+        <script src="assets/index.js"></script>
+    </body>
+</html>
